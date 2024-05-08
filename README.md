@@ -14,7 +14,7 @@ Neste documento, os padrões de design estão organizados por tipo e incluem um 
 
 ## Padrões de Design Criacionais
 
-- [ ] Factory Method
+- [X] Factory Method
 
 - [ ] Abstract Factory 
 
