@@ -8,20 +8,18 @@
 
 Quando o estado do observado muda, ele envia uma notificação para todos os observadores. Isso é útil quando a mudança de estado de um objeto precisa afetar outros objetos, sem que eles estejam fortemente acoplados.
 
-[UML](UML-Observer.png)
+![UML](UML/UML-Observer.png)
 
 
-# Explicando o contexto do código usado
-    No exemplo do código utilizado, temos como observado o objeto "SensorSeguranca" que pode emitir eventos caso ele detecte algum movimento ou retornar o status do sistema, quando esses eventos são acionados os observadores("CentralSeguranca", "Mensageiro" e "ControleAlarme") executam as ações necessárias para cada situação
+# Contexto do código usado
+No exemplo do código utilizado, temos como observado o objeto "SensorSeguranca" que pode emitir eventos caso ele detecte algum movimento ou retornar o status do sistema, quando esses eventos são acionados os observadores("CentralSeguranca", "Mensageiro" e "ControleAlarme") executam as ações necessárias para cada situação
 
-    Nesse código temos a classe Evento, que é o objeto passado para os observadores contendo as informações da mudança de estado
+Nesse código temos a classe Evento, que é o objeto passado para os observadores contendo as informações da mudança de estado
 
-    Nesse exemplo temos a classe abstrata "Observavel" que possui um Set com os observadores interessados e metodos para adicionar e remover os mesmos, o objeto observavel("SensorSegurança") herda dessa classe, deixando o código mais extensível.
+Nesse exemplo temos a classe abstrata "Observavel" que possui um Set com os observadores interessados e metodos para adicionar e remover os mesmos, o objeto observavel("SensorSegurança") herda dessa classe, deixando o código mais extensível.
 
-    temos também a interface "Observador" com o método "tratarEvento", obrigando a todos os observadores implementarem esse método e executar alguma ação com base no evento acionado
+temos também a interface "Observador" com o método "tratarEvento", obrigando a todos os observadores implementarem esse método e executar alguma ação com base no evento acionado
 
+![UML do Problema](UML/UML-Observer-Seguranca.png)
 
-# Como seria sem o uso do padrão?
-
-Sem o uso do Padrão Observer o objeto "SensorSegurança" teria que se acoplar a cada classe observadora separadamente, gerando assim um grande foco de acoplamento
 
