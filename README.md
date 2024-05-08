@@ -3,7 +3,7 @@ Este repositório é dedicado à exploração de padrões de projetos, que são 
 
 # Conteúdo: Cada padrão de design é apresentado em um diretório separado, contendo:
 
-- Uma descrição do padrão
+- Uma arquivo .md com o nome do projeto informando sua finalidade
 - Um diagrama UML ilustrando sua estrutura
 - Exemplos de código demonstrando sua implementação
 
