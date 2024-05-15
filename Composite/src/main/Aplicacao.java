@@ -67,5 +67,22 @@ public class Aplicacao {
 		
 		// Essa é a forma como exibimos a pasta graficamente (pode mostrar o conteúdo de qualquer pasta)
 		ExibidorGraficoSistemaDeArquivos.exibirItemJanelaSwing(arquivoCompactado);
+
+		// RETORNO DO EXIBIDOR GRÁFICO
+		
+		// ->Compactado.zip (207 bytes)
+		// 	  ->PASTA A (193 bytes)
+		// 		->ARQUIVO 1.pdf (17 bytes)
+		// 		->ARQUIVO 3.pptx (19 bytes)
+		// 		->PASTA D (131 bytes)
+		// 			->PASTA B (124 bytes)
+		// 				->ARQUIVO 5.docx (19 bytes)
+		// 				->PASTA C (62 bytes)
+		// 					->ARQUIVO 9.pptx (19 bytes)
+		// 					->ARQUIVO 7.pdf (17 bytes)
+		// 					->ARQUIVO 8.docx (19 bytes)
+		// 				->ARQUIVO 6.pptx (19 bytes)
+		// 				->ARQUIVO 4.pdf (17 bytes)
+		// 		->ARQUIVO 2.docx (19 bytes)
 	}
 }

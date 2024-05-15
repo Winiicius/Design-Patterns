@@ -18,7 +18,7 @@ Neste documento, os padrões de design estão organizados por tipo e incluem um 
 
 - [X] Abstract Factory 
 
-- [ ] Singleton
+- [X] Singleton
 
 - [ ] Builder
 
