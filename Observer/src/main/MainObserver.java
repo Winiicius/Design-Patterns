@@ -25,6 +25,17 @@ public class MainObserver {
 		
 		simularEventos(sensor1); // Aqui simulamos os eventos(mudança de estado) no SensorSeguranca, ele notifica os interessados que tomam as açoes necessárias baseado no evento disparado
 
+		// RETORNO NO TERMINAL (SENSOR 2)
+
+		// chamando seguranca privada para sensor --> SENSOR 1
+		// email enviado para ---> Dono Fulano de Tal 
+		// mensagem ---> Sistema Offline
+		// chamando policia para sensor --> SENSOR 1
+		// email enviado para ---> Dono Fulano de Tal
+		// mensagem ---> Foi detectado um movimento
+		// email enviado para ---> Dono Fulano de Tal
+		// mensagem ---> Sistema Online
+
 		// -----------------------------------------------------
 		
 		// Aqui fazemos a mesma coisa apenas criando um sensor novo
@@ -34,6 +45,17 @@ public class MainObserver {
 		sensor2.adicionarObservador(mensageiro);
 		sensor2.adicionarObservador(central);
 		simularEventos(sensor2);
+
+		// RETORNO NO TERMINAL (SENSOR 2)
+
+		// chamando seguranca privada para sensor --> SENSOR 2
+		// email enviado para ---> Dono Fulano de Tal
+		// mensagem ---> Sistema Offline
+		// chamando policia para sensor --> SENSOR 2
+		// email enviado para ---> Dono Fulano de Tal 
+		// mensagem ---> Foi detectado um movimento
+		// email enviado para ---> Dono Fulano de Tal 
+		// mensagem ---> Sistema Online
 	
 	}
 
