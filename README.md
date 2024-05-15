@@ -12,11 +12,11 @@ Este repositório é dedicado à exploração de padrões de projetos, que são 
 
 Neste documento, os padrões de design estão organizados por tipo e incluem um checklist para referência rápida.
 
-## Padrões de Design Criacionais
+## Padrões de Design Criacionais [ ]
 
 - [X] Factory Method
 
-- [ ] Abstract Factory 
+- [X] Abstract Factory 
 
 - [ ] Singleton
 
