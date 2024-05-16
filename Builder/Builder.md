@@ -1,4 +1,4 @@
-# Qual a finalidade do padrão Builder
+# Qual a finalidade do padrão Builder 
 
 O padrão Builder é um padrão de projeto criacional que permite a construção de objetos complexos passo a passo. Ele é útil quando a construção de um objeto requer a configuração de muitos parâmetros ou quando queremos criar diferentes representações do mesmo objeto.
 

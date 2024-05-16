@@ -14,7 +14,7 @@ O padrão Singleton tem duas variações principais que são comumente usadas:
 
 ![UML](UML/UML-Singleton.png)
 
-# Contexto do código usado
+# Contexto do código usado 
 
 No nosso contexto, estamos utilizando a versão Lazy(tardia) do Singleton, nós temos como classe que adota o padrão a classe "LoggerSingleton", ela possui o contrutor privado e possui um método estático que retorna a instância caso tenha sido requisitado anteriormente ou uma nova intância caso seja a primeira vez usando a classe, ela serve para guardar mensagens informativas sobre o cadastro de pessoas, sendo assim, nós temos que manter um histórico das mensagens, para que não se perca esse histórico em cada nova instância da classe Logger, nós aplicamos o padrão Singleton e garantimos que a classe possua apenas UMA instância
 

@@ -1,6 +1,6 @@
 # Qual a finalidade do Padrão Prototype?
 
-O Padrão Prototype é um padrão de projeto que permite criar novos objetos duplicando um protótipo existente, conhecido como "clonagem".
+O Padrão Prototype é um padrão de projeto criacional que permite criar novos objetos duplicando um protótipo existente, conhecido como "clonagem".
 
 A finalidade do padrão Prototype é proporcionar uma maneira flexível e eficiente de criar novos objetos com base em um modelo existente. Ele elimina a necessidade de recriar objetos complexos a partir do zero, permitindo a clonagem de um protótipo para gerar novas instâncias.
 

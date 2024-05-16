@@ -1,4 +1,4 @@
-# Qual a finalidade do padrão Abstract Factory?
+# Qual a finalidade do padrão Abstract Factory? 
 
 O padrão Abstract Factory é um padrão de projeto criacional que permite a criação de famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
 

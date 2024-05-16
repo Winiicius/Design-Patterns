@@ -1,4 +1,4 @@
-# Qual a finalidade do padrão Factory Method?
+# Qual a finalidade do padrão Factory Method? 
 O padrão Factory Method é um padrão de Criação de projeto que fornece uma maneira de delegar a lógica de criação de objetos para subclasses. Isso é útil quando você tem um superclasse com várias subclasses e você quer que a superclasse seja capaz de criar objetos, mas as subclasses decidem quais classes instanciar.
 
 No padrão Factory Method, a estrutura é composta por um supertipo criador, geralmente representado por uma classe abstrata ou interface, que declara um método abstrato chamado factoryMethod. Este método é responsável por definir a assinatura para a criação de objetos, mas deixa a implementação específica para as subclasses.
