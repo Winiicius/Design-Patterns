@@ -1,5 +1,5 @@
 # Design Patterns
-Este repositório é dedicado à exploração de padrões de projetos, que são soluções típicas para problemas comuns em projetos de programação. Aqui, você encontrará exemplos práticos de cada padrão de design, implementados em Java.
+Este repositório é dedicado à exploração de padrões de projetos, que são soluções típicas para problemas comuns em projetos de programação, eles são divididos em Criacionais, Estruturais e Comportamentais. Aqui, você encontrará exemplos práticos de cada padrão de design, implementados em Java.
 
 # Conteúdo: Cada padrão de design é apresentado em um diretório separado, contendo:
 
@@ -20,7 +20,7 @@ Neste documento, os padrões de design estão organizados por tipo e incluem um 
 
 - [X] Singleton
 
-- [ ] Builder
+- [X] Builder
 
 - [ ] Prototype
 
