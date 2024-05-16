@@ -24,7 +24,7 @@ Neste documento, os padrões de design estão organizados por tipo e incluem um 
 
 - [ ] Prototype
 
-## Padrões de Design Estruturais
+## Padrões de Design Estruturais [ ]
 
 - [ ] Adapter 
 
@@ -40,7 +40,7 @@ Neste documento, os padrões de design estão organizados por tipo e incluem um 
 
 - [ ] Proxy 
 
-## Padrões de Design Comportamentais
+## Padrões de Design Comportamentais [ ]
 
 - [X] Observer 
 
