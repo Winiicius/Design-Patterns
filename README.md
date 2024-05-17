@@ -26,7 +26,7 @@ Neste documento, os padrões de design estão organizados por tipo e incluem um 
 
 ## Padrões de Design Estruturais [ ]
 
-- [ ] Adapter 
+- [X] Adapter 
 
 - [ ] Bridge 
 
