@@ -5,7 +5,7 @@ import ui.ModoAppDefault;
 import ui.ModoAppEscuro;
 import ui.ModoAppNormal;
 
-public class ClienteAplicacao {
+public class AplicacaoFM {
 
 	
 	public static void main(String[] args) {

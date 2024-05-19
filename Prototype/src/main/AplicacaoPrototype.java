@@ -8,7 +8,7 @@ import prototypeConcreto.Inimigo;
 import prototypeConcreto.Obstaculo;
 import prototypeConcreto.Plataforma;
 
-public class Aplicacao {
+public class AplicacaoPrototype {
     public static void main(String[] args) {
         Mapa mapa = new Mapa();
 

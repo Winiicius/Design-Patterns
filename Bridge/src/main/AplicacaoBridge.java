@@ -7,7 +7,7 @@ import implementacoes.FogueteBridge;
 import implementacoes.FogueteChina;
 import implementacoes.FogueteNASA;
 
-public class Aplicacao {
+public class AplicacaoBridge {
 
 	public static void main(String[] args) {
 

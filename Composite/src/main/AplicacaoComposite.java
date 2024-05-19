@@ -5,7 +5,7 @@ import composite.Arquivo;
 import composite.ArquivoCompactado;
 import composite.Pasta;
 
-public class Aplicacao {
+public class AplicacaoComposite {
 
 	public static void main(String[] args) {
 		

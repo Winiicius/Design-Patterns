@@ -7,7 +7,7 @@ import pagamentos.paypal.FabricaPagamentosPaypal;
 import pagamentos.produtos.Cartao;
 import pagamentos.produtos.Cliente;
 
-public class Main {
+public class MainAF {
 
 	public static void main(String[] args) {
 		usandoFabricaPagamentosPaypal();

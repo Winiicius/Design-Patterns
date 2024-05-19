@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import logging.LoggerSingleton;
 import model.FachadaCadastramentoPessoas;
 
-public class Main {
+public class MainSingleton {
 	
 	public static void main(String[] args) {
 		
