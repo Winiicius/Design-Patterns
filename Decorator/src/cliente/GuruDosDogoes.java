@@ -23,5 +23,15 @@ public class GuruDosDogoes {
         }
 
         System.out.println("Pedido Pronto para ser Devorado!!");
+
+        // RETORNO NO MAIN
+
+        // Descrição -> Pão, Shaushicha, Carne Moída, Batata Palha, Milho
+        // Preço -> R$ 11.0
+        // Colocando a Salsicha no Pão . . .
+        // Adicionando a Carne Moída . . .
+        // Adicionando batata Palha . . .
+        // Adicionando Milho . . .
+        // Pedido Pronto para ser Devorado!!
     }
 }
