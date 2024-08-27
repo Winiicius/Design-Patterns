@@ -35,7 +35,7 @@ Recomendo primeiramente ler o "#Contexto do código usado" localizado nos arquiv
 
 - [ ] Flyweight
 
-- [ ] Proxy 
+- [X] Proxy 
 
 ## Padrões de Design Comportamentais [ ]
 
@@ -47,7 +47,7 @@ Recomendo primeiramente ler o "#Contexto do código usado" localizado nos arquiv
 
 - [ ] State 
 
-- [ ] Chain of Responsibility 
+- [X] Chain of Responsibility 
 
 - [ ] Template Method 
 
