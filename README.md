@@ -7,10 +7,7 @@ Este repositório é dedicado à exploração de padrões de projetos, que são 
 - Um diagrama UML ilustrando sua estrutura
 - Exemplos de código demonstrando sua implementação
 
-
-# Padrões de Design
-
-Neste documento, os padrões de design estão organizados por tipo e incluem um checklist para referência rápida.
+Recomendo primeiramente ler o "#Contexto do código usado" localizado nos arquivos .md para melhor compreensão do contexto em que o padrão está sendo usado!!!
 
 ## Padrões de Design Criacionais
 
@@ -32,9 +29,9 @@ Neste documento, os padrões de design estão organizados por tipo e incluem um 
 
 - [X] Composite 
 
-- [ ] Decorator
+- [X] Decorator
 
-- [ ] Facade
+- [X] Facade
 
 - [ ] Flyweight
 
